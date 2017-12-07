@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<mailConfig>
+		<hostName>
+			smtp.163.com
+		</hostName>
+		<smtpPort>
+			25
+		</smtpPort>
+		<authenticatorName>
+			17725328884@163.com
+		</authenticatorName>
+		<authenticatorPassword>
+			zhangzjxfx850313
+		</authenticatorPassword>
+		<mailFrom>
+			17725328884@163.com
+		</mailFrom>
+		<charset>
+			utf-8
+		</charset>
+		<useAuth>
+			true
+		</useAuth>
+		<useSSL>
+			false
+		</useSSL>
+	</mailConfig>
+
+
+	<createMail>
+		<title>
+			卓朗审批——审批创建
+		</title>
+		<message>
+		<![CDATA[
+			<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+			<html xmlns="http://www.w3.org/1999/xhtml">
+			<head></head>
+			您好，</br>
+			您提交的单号为##No的审批请求已经创建</br>
+			请等待审批人审批
+			<img src="172.16.1.48:8090/home" />
+			]]>
+		</message>
+	</createMail>
+	
+</config>
