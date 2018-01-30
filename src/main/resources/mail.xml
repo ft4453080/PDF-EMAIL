@@ -8,13 +8,13 @@
 			25
 		</smtpPort>
 		<authenticatorName>
-			17725328884@163.com
+			test@163.com
 		</authenticatorName>
 		<authenticatorPassword>
-			zhangzjxfx850313
+			abcdef
 		</authenticatorPassword>
 		<mailFrom>
-			17725328884@163.com
+			test@163.com
 		</mailFrom>
 		<charset>
 			utf-8
@@ -30,7 +30,7 @@
 
 	<createMail>
 		<title>
-			卓朗审批——审批创建
+			title
 		</title>
 		<message>
 		<![CDATA[
